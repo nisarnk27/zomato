@@ -1,0 +1,356 @@
+.fatherhead {
+    background-image: url(images/headimg.png);
+    background-size: cover;
+    height: 65vh;
+}
+
+.head1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.head1 a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 1.2em;
+    margin-top: 1.09em;
+    margin-right: 4rem;
+    text-decoration: none;
+}
+
+.head1 li {
+    margin-top: 2em;
+    display: inline-block;
+    list-style-type: none;
+}
+
+/* head1 closed */
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    height: 4rem;
+    width: 20rem;
+}
+
+/* logo closed */
+.head2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+/* head2 closed */
+.head3 {
+    display: flex;
+    justify-content: center;
+}
+
+.head3 select {
+    height: 7vh;
+    width: 15vw;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.head3 input {
+    height: 6.7vh;
+    width: 45vw;
+    border-radius: 0px 10px 10px 0px;
+    border-style: none;
+}
+
+.head3 select {
+    font-size:A 16px;
+    background-color: white;
+    border-style: none;
+}
+
+.head3 input::placeholder {
+    font-size: 17px;
+}
+.head3 i{
+    position: relative;
+    right: 626px;
+    top: 14.5px;
+    color: brown;
+}
+
+/* HEAD PART OVER */
+/* CARDS STARTED */
+.cards {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.card {
+    border-radius: 13px 13px 5px 5px;
+    margin: 10px;
+    height: 38vh;
+    width: 25vw;
+    overflow: hidden;
+    transition: 0.2s;
+}
+.card:hover{
+    transform: scale(1.04);
+    font-size:large;
+}
+.card h2 {
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card p {
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card img {
+    height: 23vh;
+    width: 25vw;
+    object-fit: cover;
+}
+
+/* CARD END */
+/* PAGE2 */
+.heading {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 11vw;
+}
+
+.heading p {
+    font-size: 21.5px;
+}
+
+/* SECTION START */
+.articles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 100vw;
+
+}
+
+.article {
+    border-radius: 10px;
+    margin: 7px;
+    height: 45vh;
+    width: 17vw;
+    transition:0.2s;
+}
+.article:hover{
+    transform: scale(1.05);
+}
+.ahead{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    position: relative;
+    top: 75%;
+    padding-left: 18px;
+}
+
+.a1 {
+    background-image: url(images/box1.jpg);
+    background-size: cover;
+}
+
+.a2 {
+    background-image: url(images/box2.jpg);
+    background-size: cover;
+}
+
+.a3 {
+    background-image: url(images/box3.jpg);
+    background-size: cover;
+}
+
+.a4 {
+    background-image: url(images/box4.jpg);
+    background-size: cover;
+}
+
+.cities {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 25vw 25vw 25vw;
+    grid-template-rows: 5.5vw 5.5vw 5.5vw;
+    justify-content: center;
+}
+
+.city {
+    font-family:Arial, Helvetica, sans-serif;
+    padding-left: 25px;
+    border-radius: 10px;
+    box-shadow: 1.5px 1.5px 11.4px -8px;
+}
+
+.city h3 {
+    font-weight: 100;
+}
+
+.city p {
+    font: weight -10px;
+    ;
+}
+
+/* page3 start */
+.download {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    width: 100%;
+    margin-left: 30px;
+}
+
+.screenshot img {
+    height: 280px;
+    margin-right: 20px;
+}
+
+.loginhead h2 {
+    font-size: 2.5em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.loginhead p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.loginhead {
+    margin-bottom: 40px;
+}
+
+.loginform {
+    font-size: 20px;
+}
+
+.emailinput input {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 39px;
+    width: 300px;
+    border-radius: 5px;
+    font-family: calibri;
+    border-style: none;
+    box-shadow: 0.5px 0.5px 2.4px -1px;
+}
+
+.emailinput::placeholder {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+
+.emailinput button {
+    color: white;
+    background-color: rgba(226, 47, 83, 0.886);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 8px;
+    height: 45px;
+    width: 130px;
+    border-radius: 5px;
+    border-style: none;
+    box-shadow: 0.5px 0.5px 2.4px -1px;
+}
+
+.loginimg {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.loginimg img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.login {
+    margin-bottom: 100px;
+}
+
+/* PAGE 4 START */
+.faq {
+    font-size: 1.6em;
+    margin-left: 180px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.faqgrid {
+    margin-top: 50px;
+}
+
+.que {
+    margin-left: 230px;
+    height: 40px;
+    width: 70vw;
+    box-shadow: 0px 0px 0px 0px;
+}
+
+.que p {
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* footer start */
+.footer {
+    margin-top: 90px;
+}
+
+.foothead {
+    margin-left: 190px;
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+}
+.footbtn button {
+    font-size: 18px;
+    border-style: none;
+    font-family: arial;
+    background: transparent;
+    height: 50px;
+    width: 70px;
+}
+
+.footlinks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+.footc {
+    height:300px;
+    width: 210px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footc h4 {
+    text-align: left
+}
+
+.footc li {
+    text-align: left
+}
+
+.footc li {
+    list-style-type: none;
+}
+
+.footc li a {
+    text-decoration: none;
+    color: rgb(132, 131, 131);
+}
+
+.downloadlink img {
+    height: 45px;
+}
+
+.fa-brands {
+    font-size: 25px;
+}
